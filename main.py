@@ -4,6 +4,12 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import nltk
 
+#unable to import the above ^ because you did not include 
+#all files in the repository
+
+#please include all files/modules (vaderSentiment.vaderSentiment, requests_html,
+# wordcloud, matplotlib.pyplot, nltk) in the root directory of your repo
+
 session = HTMLSession()
 #import urllib3
 url = 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en'
